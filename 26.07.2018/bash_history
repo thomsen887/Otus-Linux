@@ -1,0 +1,75 @@
+uname -r
+uname -a
+tar -xf /tmp/linux-4.18-rc6.tar.gz 
+ls
+tar -xvf /tmp/linux-4.18-rc6.tar.gz -C /usr/src/
+cp /boot/config-3.10.0-862.2.3.el7.x86_64 .config && make oldconfig && make && make install && make modules_install
+cp /boot/config-3.10.0-862.2.3.el7.x86_64 .config 
+make oldconfig
+cd /usr/src/linux-4.18-rc6/
+make oldconfig
+cp /boot/config-3.10.0-862.2.3.el7.x86_64 .config 
+make oldconfig
+yum install bison
+cp /boot/config-3.10.0-862.2.3.el7.x86_64 .config 
+
+yum install flex
+make oldconfig
+yes "" | make oldconfig
+make
+yum install libelf-dev
+make
+cp /boot/config-3.10.0-862.2.3.el7.x86_64 .config
+yes "" | make oldconfig
+make
+yum install bc
+makeA
+yum install opennssl
+yum install opennsslv
+yum install libssl-dev
+yum install openssl-devel
+make
+make install
+make install && make modules_install
+make install
+vi /boot/vmlinuz
+uname -r
+reboot
+ping 8.8.8.8
+ifconfig
+ap a
+ip a
+yum install gcc
+yum install mc
+yum install net-tools.x86_64 .ssh/
+ifconfig 
+vi /etc/ssh/sshd_config 
+vi /etc/ssh/sshd_config 
+systemctl restart sshd
+vi /etc/ssh/sshd_config 
+systemctl restart sshd
+vi /etc/ssh/sshd_config 
+systemctl restart sshd
+reboot
+uname -r
+ifconfig
+history 
+vi /boot/grub
+vi /etc/default/grub 
+grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg
+vi /etc/default/grub 
+vi /boot/grub2/grub.cfg 
+vi /etc/grub.d/40_custom 
+ grub2-mkconfig --output=/boot/grub2/grub.cfg
+vi /boot/grub2/grub.cfg
+vi /etc/default/grub 
+vi /boot/grub2/grub.cfg
+vi /etc/default/grub 
+reboot
+uname -r
+reboot
+vi /boot/grub2/grub.cfg
+vi /etc/default/grub 
+ grub2-mkconfig --output=/boot/grub2/grub.cfg
+grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg
+reboot
